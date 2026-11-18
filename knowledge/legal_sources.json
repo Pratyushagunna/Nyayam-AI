@@ -1,0 +1,126 @@
+{
+  "about": "Verified information Nyayam AI may rely on. Add an entry only after reading the official text. Nothing else counts as verified.",
+  "sources": [
+    {
+      "id": "nalsa_main",
+      "name": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/",
+      "seen_at": "https://nalsa.gov.in/promoting-inclusive-legal-system/",
+      "type": "official government body",
+      "used_for": "Legal aid helpline number and how to reach legal services",
+      "statements": [
+        "NALSA has a toll-free legal aid helpline: 15100.",
+        "People can also contact their nearest Legal Services Institution."
+      ],
+      "last_checked": "2026-11-18",
+      "check_method": "Seen in a search snippet on 2026-11-17. Page opened and confirmed by the developer.",
+      "user_confirmed": true
+    },
+    {
+      "id": "nalsa_kerala_legal_aid",
+      "name": "Kerala State Legal Services Authority page on the NALSA site",
+      "url": "https://kerala.nalsa.gov.in/?p=6549",
+      "type": "official government body",
+      "used_for": "Which law sets eligibility for free legal aid",
+      "statements": [
+        "Under Section 12 of the Legal Services Authorities Act, 1987, certain categories of persons are eligible for free legal aid."
+      ],
+      "last_checked": "2026-11-18",
+      "check_method": "Seen in a search snippet on 2026-11-17. Page opened and confirmed by the developer.",
+      "user_confirmed": true
+    }
+  ],
+  "states": {
+    "telangana": {
+      "display_name": "Telangana",
+      "aliases": [
+        "telangana"
+      ],
+      "act_name": "Telangana Buildings (Lease, Rent and Eviction) Control Act, 1960",
+      "official_url": "https://www.indiacode.nic.in/handle/123456789/8607",
+      "pdf_url": "https://www.indiacode.nic.in/bitstream/123456789/8607/1/act_15_of_1960.pdf",
+      "last_checked": "2026-11-18",
+      "check_method": "Text copied by the developer from the official India Code PDF and pasted into the project chat. Not independently re-read by the assistant.",
+      "what_it_says": [
+        {
+          "ref": "Section 1(2)",
+          "text": "The Act applies to the cities of Hyderabad and Secunderabad and to municipal corporations and municipalities in Telangana (apart from Section 3(2), which applies only if the State Government notifies it). The State Government can also extend the Act to other areas by notification."
+        },
+        {
+          "ref": "Section 7(2)(a)",
+          "text": "A landlord may receive, or ask for, an amount not exceeding one month's rent as an 'advance'."
+        },
+        {
+          "ref": "Section 7(2)(b)",
+          "text": "Apart from that, any sum paid over and above the agreed rent in return for granting, continuing or renewing a tenancy has to be refunded by the landlord to the person who paid it or, if that person prefers, adjusted by the landlord."
+        }
+      ],
+      "limits": [
+        "Whether a security deposit counts as an 'advance' under Section 7(2), or as a sum covered by Section 7(2)(b), is a legal question we could not verify.",
+        "We did not check the Act's exemptions or its other sections, so we cannot say the Act applies to your tenancy.",
+        "Sections 8 and 9 are about paying rent into a bank or before an authority when a landlord refuses it or cannot be found. They are not about getting a security deposit back."
+      ],
+      "not_found": [
+        "No provision on returning a security deposit after you move out was found in the text we checked."
+      ],
+      "developer_notes": "The pasted wording of Section 1(2)(a) also names Visakhapatnam and Vijayawada, which are in Andhra Pradesh. Probably older wording carried over, but unresolved, so it is not displayed."
+    },
+    "maharashtra": {
+      "display_name": "Maharashtra",
+      "aliases": [
+        "maharashtra"
+      ],
+      "act_name": "Maharashtra Rent Control Act, 1999",
+      "official_url": "https://www.indiacode.nic.in/bitstream/123456789/15817/1/the_maharashtra_rent_control_act_1999.pdf",
+      "pdf_url": "https://www.indiacode.nic.in/bitstream/123456789/15817/1/the_maharashtra_rent_control_act_1999.pdf",
+      "last_checked": "2026-11-18",
+      "check_method": "Text pasted by the developer from an official copy of the Act. Not independently re-read by the assistant.",
+      "what_it_says": [
+        {
+          "ref": "Section 2",
+          "text": "The Act applies to premises let for residence, education, business, trade or storage in the areas listed in Schedule I and Schedule II of the Act, and in certain areas where an earlier rent law applied. The State Government can notify that the Act does not apply to some areas or purposes, or that it applies to other areas."
+        },
+        {
+          "ref": "Section 3(1)",
+          "text": "The Act does not apply to premises belonging to the Government or a local authority, or to premises let to banks, public sector undertakings, corporations created by law, foreign missions, international agencies, multinational companies, and companies with a paid-up share capital of rupees one crore or more."
+        }
+      ],
+      "limits": [
+        "We have not checked whether your area is listed in Schedule I or Schedule II, so we cannot say the Act applies to your tenancy.",
+        "Section 26(2) mentions a 'deposit' in connection with the grant or renewal of a lease, but the text we had was incomplete, so we are not relying on it."
+      ],
+      "not_found": [
+        "No provision on returning a security deposit after you move out was found in the parts of the Act we checked. The words 'security' and 'advance' were not found."
+      ],
+      "developer_notes": "Schedule I and the full text of Section 26(2) are still to be read."
+    }
+  },
+  "could_not_verify_general": [
+    "Whether there is a legal deadline for the landlord to return a security deposit in your state.",
+    "Whether, and how much, a landlord may deduct for damage, unpaid rent or other charges.",
+    "Whether you can claim interest on a deposit that is not returned.",
+    "Which court or forum can hear a deposit dispute, and the time limits for taking legal action.",
+    "Whether any particular document is legally required as evidence.",
+    "Whether a newer tenancy law has replaced or added to the rent control law in your state."
+  ],
+  "approved_mentions": [
+    "Section 12 of the Legal Services Authorities Act, 1987",
+    "Legal Services Authorities Act, 1987",
+    "Telangana Buildings (Lease, Rent and Eviction) Control Act, 1960",
+    "Maharashtra Rent Control Act, 1999"
+  ],
+  "legal_aid_card": {
+    "title": "Free legal aid (official information)",
+    "website": "https://nalsa.gov.in/",
+    "lines": [
+      "NALSA runs a toll-free legal aid helpline: 15100.",
+      "You can also contact your nearest Legal Services Institution.",
+      "Free legal aid is only for certain eligible categories of people under Section 12 of the Legal Services Authorities Act, 1987, so please ask them whether you qualify."
+    ]
+  },
+  "pending_topics": [
+    "Maharashtra: whether Mumbai is listed in Schedule I, and the full text of Section 26(2)",
+    "Telangana: the Act's exemptions and any rent limit on its application",
+    "Any official provision on refund of a security deposit in either state"
+  ]
+}
