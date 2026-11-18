@@ -6,7 +6,7 @@ Nyayam AI is a prototype AI assistant that helps ordinary people in India organi
 
 > Nyayam AI is **not a lawyer** and gives **general information only**, not legal advice. It can make mistakes. Built as a prototype for a Kuku Technologies assignment.
 
-**Live app:** `PASTE-YOUR-STREAMLIT-URL-HERE` (it may take a moment to wake up if it has been idle)
+**Live app:** `https://nyayam-ai-pratyushagunna.streamlit.app/`
 
 ## What it does
 - **Conversational intake:** asks one or two follow-up questions at a time and builds a structured case. Python code, not the AI, decides what is still missing.
@@ -22,7 +22,7 @@ Only information listed in `knowledge/legal_sources.json` is treated as verified
 ## Run it locally (Windows)
 Requires Python 3.12 and Git.
 ```
-git clone https://github.com/YOUR-USERNAME/Nyayam-AI.git
+git clone https://github.com/Pratyushagunna/Nyayam-AI.git
 cd Nyayam-AI
 python -m venv .venv
 .venv\Scripts\activate
